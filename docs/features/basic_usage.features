@@ -1,0 +1,9 @@
+Feature: generate a keyword list
+  As a PPC specialist, startup founder, digital marketing person, SEO specialist
+  I want to get a list of keywords combinations from my few references
+
+  Scenario: customer gives a short list of keywords and receive a huge list of keywords' possible variations
+    Given: the customer enters a bundle of keywords in few separated text inputs
+	When the customer clicked "Generate" button at the end of a webform
+	Then Web app shows an easy-to-copy list of keywords
+		And a button "Download csv-file"
